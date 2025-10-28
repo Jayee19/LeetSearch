@@ -4,29 +4,34 @@
 
 ## 🚀 Live Demo
 
-**[View Live Project](https://leetsearch-ddhk1u3hg-jayees-projects.vercel.app/)**
+**[View Live Project](https://leetsearch-7t22j05q2-jayees-projects.vercel.app/)**
+
+---
 
 ## 📖 About LeetSearch
 
-LeetSearch is a modern search engine designed to help developers quickly find algorithmic problems from various online platforms. Built with a beautiful, intuitive user interface and powered by intelligent TF-IDF search algorithm.
+LeetSearch is a modern, intelligent search engine designed to help developers quickly find LeetCode algorithmic problems. Built with Next.js and powered by TF-IDF search algorithm, it provides real-time results with a beautiful, intuitive user interface.
 
 ### ✨ Key Features
 
 - **⚡ Instant Search**: Real-time problem search powered by TF-IDF algorithm
-- **🎨 Beautiful UI**: Modern, responsive interface with dark mode support
+- **🎨 Beautiful UI**: Modern, responsive interface with dark/light mode support
 - **📱 Mobile Friendly**: Works seamlessly on all devices
 - **🌙 Dark Mode**: Eye-friendly dark theme included
-- **🔍 Intelligent Results**: Semantic search using TF-IDF algorithm
-- **🎯 Quick Navigation**: Easy access to problem solutions and difficulty levels
+- **🔍 Intelligent Results**: Semantic search with accurate problem ranking
+- **🎯 Direct Links**: Quick access to LeetCode problems and solutions
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: [Next.js 13](https://nextjs.org/) + React 18
+- **Frontend**: Next.js 13 + React 18
 - **Styling**: Tailwind CSS + Material-Tailwind
-- **Search Algorithm**: TF-IDF Implementation
-- **Backend**: Express.js with Selenium
+- **Search**: TF-IDF Algorithm Implementation
+- **Backend API**: Express.js with Selenium
 - **Deployment**: Vercel
-- **Icons**: Heroicons + Material Icons
+
+---
 
 ## 📦 Installation & Setup
 
@@ -38,8 +43,8 @@ LeetSearch is a modern search engine designed to help developers quickly find al
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/AlgoSearch.git
-cd AlgoSearch
+git clone https://github.com/Jayee19/LeetSearch.git
+cd LeetSearch
 
 # Install dependencies
 npm install
@@ -57,17 +62,21 @@ npm run build
 npm start
 ```
 
+---
+
 ## 📁 Project Structure
 
 ```
-AlgoSearch/
+LeetSearch/
 ├── pages/              # Next.js pages (Home, About, How it Works)
 ├── components/         # Reusable React components
 ├── styles/             # Global CSS and Tailwind config
 ├── public/             # Static assets
 ├── Helper/             # TF-IDF implementation & data processing
-└── fonts/              # Custom fonts (Monument Extended)
+└── fonts/              # Custom fonts
 ```
+
+---
 
 ## 🔄 How It Works
 
@@ -76,9 +85,16 @@ AlgoSearch/
 3. **Results Ranking**: Results are ranked by relevance
 4. **Display**: Results show problem name, platform, difficulty level, and direct links
 
+---
+
 ## 🚀 Deployment
 
 ### Deploy to Vercel (Recommended)
+
+The project is already deployed at:
+**[https://leetsearch-7t22j05q2-jayees-projects.vercel.app/](https://leetsearch-7t22j05q2-jayees-projects.vercel.app/)**
+
+To deploy your own:
 
 ```bash
 # Install Vercel CLI
@@ -88,16 +104,9 @@ npm install -g vercel
 vercel
 ```
 
-Or connect your GitHub repository to Vercel for automatic deployments on every push.
+---
 
-### Deploy to Netlify
-
-```bash
-npm run build
-# Drag and drop the .next folder to Netlify
-```
-
-## 🎓 Learning & Development
+## 🎓 Technologies & Learning
 
 This project demonstrates:
 - ✅ Next.js full-stack development
@@ -107,29 +116,19 @@ This project demonstrates:
 - ✅ TF-IDF algorithm implementation
 - ✅ Production-ready code structure
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs through GitHub Issues
-- Submit pull requests with improvements
-- Suggest new features
-- Improve documentation
+---
 
 ## 📝 License
 
 This project is open source and available under the MIT License.
 
+---
+
 ## 👨‍💻 Author
 
-- **Developer:** Jayee Das
-- **GitHub:** https://github.com/Jayee19/LeetSearch
-- **Live:** https://leetsearch-ddhk1u3hg-jayees-projects.vercel.app
-
-## 🙏 Acknowledgments
-
-- Built with Next.js, React, and Tailwind CSS
-- TF-IDF algorithm for intelligent search
-- LeetCode data integration
+**Jayee Das**
+- GitHub: [@Jayee19](https://github.com/Jayee19)
+- LinkedIn: [Jayee Das](https://www.linkedin.com/in/jayee-das-64653822a/)
 
 ---
 
